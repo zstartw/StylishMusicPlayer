@@ -1,8 +1,8 @@
 package io.github.ryanhoo.music.utils;
 
 import android.graphics.drawable.GradientDrawable;
-import android.support.annotation.ColorInt;
-import android.support.annotation.FloatRange;
+import androidx.annotation.ColorInt;
+import androidx.annotation.FloatRange;
 
 /**
  * Created with Android Studio.

@@ -1,7 +1,7 @@
 package io.github.ryanhoo.music.ui.local.all;
 
 import android.content.Context;
-import android.support.v4.app.LoaderManager;
+import androidx.loader.app.LoaderManager;
 import io.github.ryanhoo.music.data.model.Song;
 import io.github.ryanhoo.music.ui.base.BasePresenter;
 import io.github.ryanhoo.music.ui.base.BaseView;

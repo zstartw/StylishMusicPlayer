@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     >
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         style="@style/MP.Theme.Widget.RecyclerView"
         android:paddingTop="@dimen/mp.padding.large"
         android:clipToPadding="false"

@@ -8,10 +8,12 @@ import android.graphics.*;
 import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.OvalShape;
 import android.os.Build;
-import android.support.v4.view.ViewCompat;
+import androidx.core.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
+
+
 
 /**
  * Created with Android Studio.
@@ -19,7 +21,7 @@ import android.widget.ImageView;
  * Date: 9/8/16
  * Time: 4:23 PM
  * Desc: ShadowImageView
- * Stole from {@link android.support.v4.widget.SwipeRefreshLayout}'s implementation to display beautiful shadow
+ * Stole from {@link SwipeRefreshLayout}'s implementation to display beautiful shadow
  * for circle ImageView.
  */
 public class ShadowImageView extends ImageView {

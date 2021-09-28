@@ -9,10 +9,12 @@ import android.graphics.*;
 import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.OvalShape;
 import android.os.Build;
-import android.support.v4.view.ViewCompat;
+import androidx.core.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
+
+
 import io.github.ryanhoo.music.BuildConfig;
 
 /**
@@ -21,7 +23,7 @@ import io.github.ryanhoo.music.BuildConfig;
  * Date: 9/6/16
  * Time: 11:39 PM
  * Desc: AlbumImageView
- * Referenced {@link android.support.v4.widget.SwipeRefreshLayout}'s implementation.
+ * Referenced {@link SwipeRefreshLayout}'s implementation.
  */
 public class AlbumImageView extends ImageView {
 

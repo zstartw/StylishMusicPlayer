@@ -1,6 +1,6 @@
 package io.github.ryanhoo.music.ui.local.filesystem;
 
-import android.support.annotation.UiThread;
+import androidx.annotation.UiThread;
 
 import java.io.File;
 import java.util.List;
