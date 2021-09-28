@@ -63,8 +63,11 @@ public class AlbumImageView extends ImageView {
     private static final String APP_SLOGAN = "Make music simpler";
     private static final String COPY_RIGHT = "Ryan Hoo ©2016";
     @SuppressLint("DefaultLocale")
-    private static final String BUILD = String.format("build release %s-%d (%s)",
-            BuildConfig.VERSION_NAME, BuildConfig.VERSION_CODE, BuildConfig.FLAVOR);
+//    private static final String BUILD = String.format("build release %s-%d (%s)",
+//            BuildConfig.VERSION_NAME, BuildConfig.VERSION_CODE, BuildConfig.FLAVOR);
+
+    private static final String BUILD = String.format("build release %s-%d",
+            BuildConfig.VERSION_NAME, BuildConfig.VERSION_CODE);
 
     // Animation
     private ObjectAnimator mRotateAnimator;
